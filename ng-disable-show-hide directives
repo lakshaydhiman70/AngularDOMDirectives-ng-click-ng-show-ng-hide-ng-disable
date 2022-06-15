@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="">
+    <table>
+        <tr>
+            <td><input type="checkbox" ng-model="clickval" /></td>
+            <td><button ng-disabled="clickval">Button</button></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" ng-model="show" /></td>
+            <td><button ng-show="show">Button</button></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" ng-model="hide" /></td>
+            <td><button ng-hide="hide">Button</button></td>
+        </tr>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+    </script>
+</body>
+</html>
